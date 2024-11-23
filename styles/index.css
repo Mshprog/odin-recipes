@@ -1,9 +1,9 @@
 * {
   line-height: 1.5;
+  list-style: none;
 }
 
 body {
-  list-style: none;
   text-align: center;
   background-color: #fff4e1;
   font-family: "Times New Roman", Times, sans-serif;
