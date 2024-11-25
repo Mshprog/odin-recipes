@@ -1,14 +1,31 @@
-* {
-  line-height: 1.5;
-  list-style: none;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  text-align: center;
+}
+
+.container {
+  height: 250px;
+  width: 300px;
+  margin: 100px auto;
+  border: 3px solid brown;
+  border-radius: 30px;
   text-align: center;
   background-color: #fff4e1;
-  font-family: "Times New Roman", Times, sans-serif;
 }
 
+.recipe-links {
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 a {
   text-decoration: none;
   color: #000000;
@@ -17,4 +34,8 @@ a {
 a:hover {
   text-decoration: underline;
   color: #ff0000;
+}
+
+li {
+  list-style: none;
 }
